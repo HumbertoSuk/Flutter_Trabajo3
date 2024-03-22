@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:go_router/go_router.dart';
 import 'package:trabajo_3/config/menu/menu_item.dart';
 
 class ListMenuCustom extends StatelessWidget {
@@ -24,7 +25,7 @@ class ListMenuCustom extends StatelessWidget {
       title: Text(menuItem.title),
       subtitle: Text(menuItem.subtitle),
       onTap: () {
-        print('llamado de la liga a donde ir ${menuItem.link}');
+        context.pushNamed(menuItem.nameScreen);
       },
     );
   }

@@ -4,6 +4,7 @@ import 'package:trabajo_3/presentation/widgets/ListMenuCustom.dart';
 
 class HomeScreen extends StatelessWidget {
   const HomeScreen({super.key});
+  static const String nameScreen = "HomeScreen";
 
   @override
   Widget build(BuildContext context) {

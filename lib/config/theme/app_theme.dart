@@ -6,7 +6,9 @@ const List<Color> colorList = <Color>[
   Colors.red,
   Colors.purple,
   Colors.deepPurpleAccent,
-  Colors.deepPurple
+  Colors.deepPurple,
+  Colors.pinkAccent,
+  Color.fromARGB(255, 236, 152, 180),
 ];
 
 class AppTheme {
