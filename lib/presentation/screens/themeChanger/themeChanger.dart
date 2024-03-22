@@ -1,15 +1,15 @@
 import 'package:flutter/material.dart';
 
-class ButtonScreen extends StatelessWidget {
-  static const String nameScreen = "ButtonScreen";
+class ThemeChangeScreen extends StatelessWidget {
+  static const String nameScreen = "ThemeChangeScreen";
 
-  const ButtonScreen({super.key});
+  const ThemeChangeScreen({super.key});
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text("Botones"),
+        title: const Text("Theme Change"),
       ),
       body: const Placeholder(),
     );
