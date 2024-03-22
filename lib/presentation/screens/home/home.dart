@@ -1,31 +1,32 @@
 import 'package:flutter/material.dart';
 import 'package:trabajo_3/config/menu/menu_item.dart';
-import 'package:trabajo_3/widgets/ListMenuCustom.dart';
+import 'package:trabajo_3/presentation/widgets/ListMenuCustom.dart';
 
-class Home extends StatelessWidget {
-  const Home({Key? key}) : super(key: key);
+class HomeScreen extends StatelessWidget {
+  const HomeScreen({super.key});
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text("Home"),
-        centerTitle: false,
+        title: const Text('Home'),
       ),
-      body: _HomeView(),
+      body: const _HomeView(),
     );
   }
 }
 
 class _HomeView extends StatelessWidget {
-  const _HomeView({Key? key}) : super(key: key);
+  const _HomeView({
+    super.key,
+  });
 
   @override
   Widget build(BuildContext context) {
-    final List<MenuItem> listado = appMenuItems;
     return ListView.builder(
-      itemCount: listado.length,
-      itemBuilder: (context, index) => ListCustom(menuItem: listado[index]),
-    );
+        itemCount: appMenuItems.length, itemBuilder: getMenuList);
   }
+
+  Widget getMenuList(context, index) =>
+      ListMenuCustom(menuItem: appMenuItems[index]);
 }
