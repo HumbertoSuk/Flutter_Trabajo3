@@ -1,15 +1,5 @@
 import 'package:go_router/go_router.dart';
-import 'package:trabajo_3/presentation/screens/animated/animationScreen.dart';
-import 'package:trabajo_3/presentation/screens/buttons/ButtonScreen.dart';
-import 'package:trabajo_3/presentation/screens/cards/CardScreen.dart';
-import 'package:trabajo_3/presentation/screens/counterRiver/counterRiver.dart';
-import 'package:trabajo_3/presentation/screens/home/home.dart';
-import 'package:trabajo_3/presentation/screens/infiniteScroll/infiniteScroll.dart';
-import 'package:trabajo_3/presentation/screens/progress/progressScreen.dart';
-import 'package:trabajo_3/presentation/screens/snackbars/snackbarScreen.dart';
-import 'package:trabajo_3/presentation/screens/themeChanger/themeChanger.dart';
-import 'package:trabajo_3/presentation/screens/tutorial/tutorialApp.dart';
-import 'package:trabajo_3/presentation/screens/uiControl/UIScreen.dart';
+import 'package:trabajo_3/presentation/screens/screens.dart'; // Archivo de barril
 
 // GoRouter configuration
 final appRouter = GoRouter(

@@ -1,0 +1,11 @@
+export 'package:trabajo_3/presentation/screens/animated/animationScreen.dart';
+export 'package:trabajo_3/presentation/screens/buttons/ButtonScreen.dart';
+export 'package:trabajo_3/presentation/screens/cards/CardScreen.dart';
+export 'package:trabajo_3/presentation/screens/counterRiver/counterRiver.dart';
+export 'package:trabajo_3/presentation/screens/home/home.dart';
+export 'package:trabajo_3/presentation/screens/infiniteScroll/infiniteScroll.dart';
+export 'package:trabajo_3/presentation/screens/progress/progressScreen.dart';
+export 'package:trabajo_3/presentation/screens/snackbars/snackbarScreen.dart';
+export 'package:trabajo_3/presentation/screens/themeChanger/themeChanger.dart';
+export 'package:trabajo_3/presentation/screens/tutorial/tutorialApp.dart';
+export 'package:trabajo_3/presentation/screens/uiControl/UIScreen.dart';
